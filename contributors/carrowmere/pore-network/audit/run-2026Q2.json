@@ -1,0 +1,15 @@
+{
+  "finished_at": "2026-06-27T01:42:00Z",
+  "metrics": {
+    "attempts_blocked": 3,
+    "blocked": 1,
+    "checks_off_target": 2,
+    "checks_on_target": 6,
+    "checks_total": 11
+  },
+  "package": "pore-network",
+  "runner": "registry-ci",
+  "runtime_seconds": 204,
+  "schema": "registry-runner/v3",
+  "snapshot": "2026Q2"
+}

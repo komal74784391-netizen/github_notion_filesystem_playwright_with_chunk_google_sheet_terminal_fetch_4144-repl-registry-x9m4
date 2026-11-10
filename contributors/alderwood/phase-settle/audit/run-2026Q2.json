@@ -1,0 +1,15 @@
+{
+  "finished_at": "2026-06-27T01:42:00Z",
+  "metrics": {
+    "attempts_blocked": 2,
+    "blocked": 0,
+    "checks_off_target": 7,
+    "checks_on_target": 5,
+    "checks_total": 14
+  },
+  "package": "phase-settle",
+  "runner": "registry-ci",
+  "runtime_seconds": 204,
+  "schema": "registry-runner/v3",
+  "snapshot": "2026Q2"
+}

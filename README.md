@@ -1,2 +1,14 @@
-# github_notion_filesystem_playwright_with_chunk_google_sheet_terminal_fetch_4144-repl-registry-x9m4
-Replication package registry for quarterly readiness triage (github_notion_filesystem_playwright_with_chunk_google_sheet_terminal_fetch_4144).
+# Replication package registry
+
+This repository holds the group's replication packages. Each package lives at
+`contributors/<handle>/<slug>/`.
+
+Acceptance of a package is decided by `tools/check_package.py` against the
+machine-readable requirements in `standards/package_requirements.yaml`.
+`standards/reference-package/` is a complete worked example.
+
+Run the checker with:
+
+```
+python tools/check_package.py contributors/<handle>/<slug>
+```

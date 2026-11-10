@@ -1,0 +1,32 @@
+# Runner metric field dictionary (registry-runner/v3).
+#
+# These are the raw field names emitted by the runner in each quarterly
+# audit/run-<snapshot>.json file. The `label` value is the fixed row label
+# used by the verification workbook.
+
+fields:
+  checks_total:
+    label: Total checks
+    group: Checks attempted
+    description: Every check the runner attempted for this package in the snapshot.
+  checks_on_target:
+    label: On target
+    group: Checks attempted
+    description: Attempted checks that passed.
+  checks_off_target:
+    label: Off target
+    group: Checks attempted
+    description: Attempted checks that ran and failed.
+  attempts_blocked:
+    label: Blocked
+    group: Checks attempted
+    description: This package's attempted checks that were blocked by another
+      package's guardrails. It is part of this package's checks-attempted total.
+  blocked:
+    label: Blocks issued
+    group: Defensive record
+    description: Blocking decisions this package's own guardrails issued against
+      other packages. It is NOT part of this package's checks-attempted total.
+
+identities:
+  checks_total: checks_on_target + checks_off_target + attempts_blocked

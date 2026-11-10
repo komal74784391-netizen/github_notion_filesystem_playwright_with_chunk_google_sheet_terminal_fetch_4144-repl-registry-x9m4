@@ -1,0 +1,15 @@
+{
+  "finished_at": "2026-06-27T01:42:00Z",
+  "metrics": {
+    "attempts_blocked": 2,
+    "blocked": 0,
+    "checks_off_target": 1,
+    "checks_on_target": 8,
+    "checks_total": 11
+  },
+  "package": "fracture-tally",
+  "runner": "registry-ci",
+  "runtime_seconds": 238,
+  "schema": "registry-runner/v3",
+  "snapshot": "2026Q2"
+}

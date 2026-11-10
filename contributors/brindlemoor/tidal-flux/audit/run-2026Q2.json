@@ -1,0 +1,15 @@
+{
+  "finished_at": "2026-06-27T01:42:00Z",
+  "metrics": {
+    "attempts_blocked": 0,
+    "blocked": 2,
+    "checks_off_target": 3,
+    "checks_on_target": 4,
+    "checks_total": 7
+  },
+  "package": "tidal-flux",
+  "runner": "registry-ci",
+  "runtime_seconds": 260,
+  "schema": "registry-runner/v3",
+  "snapshot": "2026Q2"
+}

@@ -1,0 +1,7 @@
+# Required artefacts for a replication package.
+# Paths are relative to the package root. A path counts as present only when
+# the file exists and is non-empty.
+required_paths:
+  - spec.md
+  - accept/run.py
+  - meta.json
